@@ -3,12 +3,12 @@ import React, {
 } from 'react'
 
 import Cesium from 'cesium/Cesium'
-import Widgets from 'cesium/Widgets/widgets.css'
-
+// import Widgets from 'cesium/Widgets/widgets.css'
 
 export default class App extends Component {
   constructor(){
-    super()
+    super();
+    console.log(33)
     window.initFromPlugin = function(viewer){
       window.viewer = viewer
     }
